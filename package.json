@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "com.wikitude.phonegap.wikitudeplugin": "git+https://github.com/Wikitude/wikitude-cordova-plugin.git",
+    "cordova": "^8.0.0",
     "cordova-android": "^7.0.0",
     "cordova-plugin-device": "^1.1.4",
     "cordova-plugin-splashscreen": "^4.0.3",
