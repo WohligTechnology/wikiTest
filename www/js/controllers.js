@@ -30,7 +30,7 @@ angular.module('starter.controllers', [])
       },
       // deviceready Event Handler
       onDeviceReady: function () {
-        app.wikitudePlugin = cordova.require("com.wikitude.phonegap.WikitudePlugin.WikitudePlugin");
+        app.wikitudePlugin = cordova.require("com.wikitude.phonegap.WikitudePlugin");
         app.wikitudePlugin.isDeviceSupported(app.onDeviceSupported, app.onDeviceNotSupported, app.requiredFeatures);
       },
       // Callback if the device supports all required features
